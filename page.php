@@ -5,7 +5,7 @@ get_header();
     <!--test-->
     <div class="container-institut">
         <div class="container-img">
-            <img src="ressources/images/test-intro-img.jpg" alt="#">
+            <img src="<?= get_stylesheet_directory_uri(); ?>/img/test-intro-img.jpg" alt="#">
         </div>
         <div class="container-title-1">
             <p>Institut de beauté</p>
@@ -60,7 +60,7 @@ get_header();
     <div class="container-cadeau">
         <div class="cadeau">
             <div>
-                <img src="http://www.millesimevoyages.be/Pics/cadeaux.png" alt="#" style="height: 350px; width: 100%;">
+                <img src="<?= get_stylesheet_directory_uri(); ?>http://www.millesimevoyages.be/Pics/cadeaux.png" alt="#" style="height: 350px; width: 100%;">
             </div>
             <div class="p-cadeau">
                 <p>Un anniversaire, une fête ou juste l'envie de faire plaisir ?</p>
