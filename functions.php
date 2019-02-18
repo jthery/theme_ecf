@@ -40,6 +40,8 @@ function my_theme_enqueue_styles() {
     wp_enqueue_style( 'my-theme-main', get_stylesheet_directory_uri().'/css/main.css', ['bootstrap'] );
     // add my page style.css
     wp_enqueue_style( 'project-solo', get_stylesheet_directory_uri() . '/css/style.css' );
+    wp_enqueue_style( 'project-solo-mediaqueries', get_stylesheet_directory_uri() . '/css/media-queries.css' );
+
 }
 add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
 

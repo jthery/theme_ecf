@@ -1,0 +1,78 @@
+@media(min-width: 576px) {
+
+	/* header */
+	h1 {
+		font-size: 3.8em;
+	}
+
+	.mainnavbar {
+		font-size: 1.2em;
+	}
+
+	/* Institut */
+	.container-institut .container-img img {
+		height: 500px;
+	}
+
+	.container-institut {
+		height: 500px;
+		flex-direction: row;
+		justify-content: center;
+		margin-bottom: 0;
+	}
+
+	.container-institut .container-title-1 {
+		margin-left: 50px;
+	}
+
+	.container-institut .container-title-1 .container-txt {
+		width: 320px;
+		margin-left: 25px;
+		font-size: 0.9em;
+	}
+
+	/* Prestations */
+	.place-prestations {
+		height: 300px;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+
+	.place-prestations-1 {
+		height: 300px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+
+	/* Carte-cadeau */
+	.container-cadeau {
+		margin-bottom: 0px;
+	}
+
+	.container-cadeau .cadeau {
+		flex-direction: row;
+	}
+
+	.container-cadeau .cadeau .p-cadeau .lien-cadeau {
+		font-size: 1.2em;
+	}
+
+	.container-cadeau .cadeau .p-cadeau p {
+		font-size: 1.2em;
+	}
+	/* OTHER PAGES */
+	.container-intro {
+		height: 250px;
+	}
+	/*page contact form*/
+	form {
+		width: 400px;
+		margin-top: 60px;
+	}
+
+	input,
+    textarea {
+        width: 400px;
+    }
+}
