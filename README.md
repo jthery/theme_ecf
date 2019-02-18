@@ -1,4 +1,4 @@
-Ceci un mon theme wordpress afin de valider mon ecf chez Popschool.
+Ceci est mon theme wordpress "from scratch" afin de valider mon ecf chez Popschool.
 
 Réalisation Février 2019.
 
