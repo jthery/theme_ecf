@@ -11,12 +11,26 @@
     </head>
     <body <?php body_class(); ?>>
 
-        <nav class="navbar navbar-expand-md navbar-light bg-light" role="navigation">
-            <div class="container">
-                <a class="navbar-brand" href="<?php echo site_url(); ?>"><img src="<?= get_stylesheet_directory_uri(); ?>/img/icons8-bulle.svg" alt=""> Mon blog</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#my-theme-navbar-collapse" aria-controls="my-theme-navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+    <!--banner + button-->
+    <header>
+        <div class="overlay">
+            <h1>BeautyByMarine.com</h1>
+            <h3>La beauté n'a pas d'âge !</h3>
+            <br>
+            <button>Je réserve !</button>
+        </div>
+    </header>
+    <!--end banner + button-->
+    <!--navbar-->
+    <div class="mainnavbar">
+        <div class="navbar">
+            <a href="index.html">Accueil</a>
+            <a class="transition-prestations" href="#container-prestations">Prestations</a>
+            <a href="#">Avis clients</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </div>
+    <!-- end navbar-->
 <?php
 // configuration du menu WP_Bootstrap_Navwalker
 wp_nav_menu([
